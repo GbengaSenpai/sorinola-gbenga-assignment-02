@@ -32,7 +32,7 @@ function countEvenNumbers(arrayOfNumbers) {
 }
 // assignment.countEvenNumbers = countEvenNumbers;
 
-/**
+
  * Challenge - 3
  * 
  * Given an array of numbers representing temperatures in Celsius,
