@@ -14,9 +14,13 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
+  let sum = 0;
+  for (let index = 0; index < arrayOfNumbers.length; index++){
+    sum += arrayOfNumbers.length[index]
+  }
+    return sum;
 }
-// assignment.sumOfNumbers = sumOfNumbers;
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -32,7 +36,7 @@ function countEvenNumbers(arrayOfNumbers) {
 }
 // assignment.countEvenNumbers = countEvenNumbers;
 
-
+/**
  * Challenge - 3
  * 
  * Given an array of numbers representing temperatures in Celsius,
